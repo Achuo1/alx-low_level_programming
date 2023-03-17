@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - this is the main function
+ * main - Entry point of the program
  *
- * return: always 0
+ * This function prints a message to the standard output.
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
