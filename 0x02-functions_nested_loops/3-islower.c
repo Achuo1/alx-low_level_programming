@@ -2,7 +2,7 @@
 /**
  * _islower - function to print lower case
  *
- * 0c: answer to be printed
+ * c: answer to be printed
  *
  * Return: always 0
  */
