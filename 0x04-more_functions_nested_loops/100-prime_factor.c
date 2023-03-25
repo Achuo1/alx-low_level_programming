@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+#include "math.h"
 
 /**
  * main - function to do
@@ -9,7 +9,7 @@
 int main(void)
 {
 	long x, maxf;
-	long number = 012852475143;
+	long number = 612852475143;
 	double square = sqrt(number);
 
 	for (x = 1; x <= square; x++)
@@ -19,6 +19,6 @@ int main(void)
 			maxf = number / x;
 		}
 	}
-	printf("%d\n", maxf);
+	printf("%ld\n", maxf);
 	return (0);
 }
