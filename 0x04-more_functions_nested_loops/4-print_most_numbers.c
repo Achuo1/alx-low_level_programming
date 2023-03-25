@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * print_most_numbers - prints from 1 to 9 excluding 2 and 4
+ *
+ * Return: 0 always
+ */
 
 void print_most_numbers(void)
 {
