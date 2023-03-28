@@ -20,13 +20,7 @@ int _atoi(char *s)
 		}
 		else if (s[i] >= '0' && s[i] <= '9')
 		{
-			int digit = s[i] - '0';
-
-			if (num > INT_MAX / 10 || (num == INT_MAX / 10 && digit > INT_MAX % 10))
-			{
-				return (sign == -1 ? INT_MIN : INT_MAX);
-			}
-			num = num * 10 + digit;
+			num = num * 10 + (s[i] - '0');
 		}
 		else if (num > 0)
 		{
